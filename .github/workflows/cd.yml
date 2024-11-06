@@ -68,7 +68,6 @@ jobs:
           echo "ECS_CLUSTER=$ECS_CLUSTER" >> $GITHUB_ENV
           echo "ECS_SERVICE=$ECS_SERVICE" >> $GITHUB_ENV
 
-
       # TODO
       # Configure AWS credentials
       # Deploy ECS Cluster using templates/cluster.yaml
